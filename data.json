@@ -1,0 +1,106 @@
+{
+  "firmName": "Legal-O-Flex",
+  "tagline": "Your Fortress of Legal Expertise",
+  "heroSubtitle": "Professional virtual law firm providing comprehensive legal services with modern technology and personalized attention.",
+  "about": {
+    "title": "About Our Firm",
+    "description": "Legal-O-Flex is dedicated to raising the barfor legal excellence in the contemporary corporate world. We provide smart, solution-driven guidance across a range of legal disciplines by fusing strategic insight with in-depth domain understaning. Our approach is rooted in precision, professionalism, and foresight - ensuring that every client engagement aligns with their objectives and long-term vision. We believe in building enduring partnerships founded on trust, transparency, and results. With an innovative and technology-driven practice, we assist to traverse complicated legal landscapes with confidence and clarity.",
+    "lawyerName": "Our Legal Team",
+    "lawyerBio": "With extensive experience in various areas of law, Legal O Flex brings a client-focused approach to legal practice. Specializing in modern legal challenges, we provide strategic counsel and representation tailored to each client's unique needs."
+  },
+  "services": [
+    {
+      "title": "Civil Litigation & Dispute Resolution",
+      "description": "<p>Representing clients in all forms of civil disputes with strategic precision and legal integrity.</p><p><b>Includes</b>: Property disputes, injunctions, recovery suits, contract enforcement, damages, and execution proceedings.</p>",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Criminal Law & Defence Strategy",
+      "description": "<p>Protecting your rights through effective representation in criminal matters, from investigation to appeal.</p><p><b>Includes</b>: Bail applications, FIR quashing, cheque bounce cases, white-collar crimes, cyber offences, and trial representation.</p>",
+      "icon": "shield"
+    },
+    {
+      "title": "Corporate & Business Law Advisory",
+      "description": "<p>Comprehensive legal solutions for businesses — from incorporation to governance and monetization.</p><p><b>Includes</b>: Company incorporation, board resolutions, shareholder & partnership agreements, M&A, ROC filings, and regulatory compliance.</p>",
+      "icon": "file-text"
+    },
+    {
+      "title": "Intellectual Property Rights (IPR) & Brand Protection",
+      "description": "<p>Safeguarding creativity and innovation through strategic IP registration, enforcement, and monetization.</p><p><b>Includes</b>: Trademark, copyright, patent registration, IP licensing, infringement actions, and brand portfolio management.</p>",
+      "icon": "award"
+    },
+    {
+      "title": "Cyber Law, Data Protection & Digital Rights",
+      "description": "<p>Legal solutions for online platforms, data privacy, and cybercrime protection in the digital era.</p><p><b>Includes</b>: Cybercrime complaints, IT Act compliance, privacy policies, data breach responses, and digital contract advisory.</p>",
+      "icon": "lock"
+    },
+    {
+      "title": "Banking, IBC & Debt Recovery Law",
+      "description": "<p>End-to-end recovery and insolvency solutions for secured and unsecured creditors.</p><p><b>Includes</b>: SARFAESI proceedings, DRT & DRAT matters, IBC petitions under Sections 7/9/10, loan documentation, restructuring, and recovery suits.</p>",
+      "icon": "dollar-sign"
+    },
+    {
+      "title": "Arbitration & Mediation Services (ADR)",
+      "description": "<p>Fast, confidential, and cost-effective dispute resolution outside the courtroom.</p><p><b>Includes</b>: Domestic and international arbitration, mediation, conciliation, and enforcement of arbitral awards.</p>",
+      "icon": "users"
+    },
+    {
+      "title": "Environmental & Sustainability Law",
+      "description": "<p>Guiding industries and individuals towards compliance with evolving environmental and ESG frameworks.</p><p><b>Includes</b>: Environmental clearance, pollution control compliance, public interest litigation (PIL), ESG policy drafting, and green business advisory.</p>",
+      "icon": "globe"
+    },
+    {
+      "title": "Real Estate & Property Law",
+      "description": "<p>Structuring, securing, and resolving real estate transactions with due diligence and expertise.</p><p><b>Includes</b>: Title verification, sale/lease/gift deeds, mutation, builder-buyer disputes, and RERA representation.</p>",
+      "icon": "home"
+    },
+    {
+      "title": "Family & Personal Law",
+      "description": "<p>Delivering compassionate legal assistance in family, matrimonial, and succession matters.</p><p><b>Includes</b>: Divorce (mutual & contested), maintenance, domestic violence, adoption, wills & probate, succession certificates.</p>",
+      "icon": "user"
+    },
+    {
+      "title": "Employment & Labour Law",
+      "description": "<p>Ensuring compliant, transparent, and fair employment practices for employers and employees alike.</p><p><b>Includes</b>: Employment contracts, wrongful termination, HR compliance, labour disputes, workplace harassment matters.</p>",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Startup Legal & Fundraising Advisory",
+      "description": "<p>Building strong legal foundations for startups — from inception to investor rounds.</p><p><b>Includes</b>: Incorporation, term sheets, ESOPs, investor agreements, IP strategy, and compliance for DPIIT-registered startups.</p>",
+      "icon": "trending-up"
+    },
+    {
+      "title": "Contract Drafting & Documentation",
+      "description": "<p>Tailor-made contracts to safeguard your business interests and prevent future disputes.</p><p><b>Includes</b>: NDAs, MoUs, service agreements, vendor & franchise contracts, joint venture deeds, and SaaS agreements.</p>",
+      "icon": "file"
+    },
+    {
+      "title": "Legal Advisory for Creators & Event Companies",
+      "description": "<p>Specialized legal services for digital creators, artists, and event professionals.</p><p><b>Includes</b>: Influencer contracts, brand collaborations, licensing, copyright ownership, event liability management, and sponsorship agreements.</p>",
+      "icon": "feather"
+    },
+    {
+      "title": "Taxation, Compliance & Financial Law",
+      "description": "<p>Legal assistance in navigating GST, Income Tax, and regulatory frameworks effectively.</p><p><b>Includes</b>: Tax disputes, assessment appeals, ITC recovery, penalty defense, and compliance documentation.</p>",
+      "icon": "bar-chart-2"
+    },
+    {
+      "title": "Media, Gaming & Entertainment Law",
+      "description": "<p>Empowering innovation and creativity through specialized media and gaming legal frameworks.</p><p><b>Includes</b>: Licensing for online and skill-based games, production house contracts, OTT content licensing, esports team agreements, influencer deals, and digital distribution rights.</p>",
+      "icon": "tv"
+    }
+  ],
+  "contact": {
+    "phone": "+91 8910502442",
+    "email": "legaloflex@gmail.com",
+    "address": "Virtual Office - Serving Clients Nationwide",
+    "hours": "Monday - Friday: 9:00 AM - 6:00 PM",
+    "emergencyContact": "Available 24/7 for urgent matters"
+  },
+  "socialMedia": {
+    "linkedin": " https://www.linkedin.com/in/legal-o-flex-58530a314",
+    "instagram": "https://www.instagram.com/legal_o_flex1607",
+    "facebook": "https://www.facebook.com/share/19qBKNr7ve/",
+    "whatsapp": "https://wa.me/918910502442"
+  }
+}
