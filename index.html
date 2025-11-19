@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal O Flex - Expert Legal Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.css">
+    <link rel="icon" type="image/png" href="lofimgcropednobg.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+            <a href="#home">
+            <img src="lofimgcropednobg.png" alt="Legal O Flex logo" class="nav-logo" style="height:36px; width:auto;">
+            </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="lofimgcropednobg.png" alt="Legal-O-Flex Logo" class="hero-logo" style="height:250px; margin-bottom:20px;">
+                <h1 id="hero-title", style="font-size: 50px;">Legal-O-Flex</h1>
+                <p id="hero-tagline" class="hero-tagline", style="font-size: 20px;">Your Fortress of Legal Expertise</p>
+                <p id="hero-subtitle" class="hero-subtitle", style="font-size: 20px;">Professional virtual law firm providing comprehensive legal services with modern technology and personalized attention.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn--primary btn--lg">Get Legal Consultation</a>
+                    <a href="#services" class="btn btn--secondary btn--lg">Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="about-title", style="font-size: 50px;">About Our Firm</h2>
+                <p id="about-description", style="font-size: 22px;">Legal-O-Flex is dedicated to raising the barfor legal excellence in the contemporary corporate world. We provide smart, solution-driven guidance across a range of legal disciplines by fusing strategic insight with in-depth domain understaning. Our approach is rooted in precision, professionalism, and foresight - ensuring that every client engagement aligns with their objectives and long-term vision. We believe in building enduring partnerships founded on trust, transparency, and results. With an innovative and technology-driven practice, we assist to traverse complicated legal landscapes with confidence and clarity.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 id="lawyer-name", style="text-align: center;">Our Legal Team</h3>
+                    <p id="lawyer-bio", style="font-size: 16px;">With extensive experience in various areas of law, Legal O Flex brings a client-focused approach to legal practice. Specializing in modern legal challenges, we provide strategic counsel and representation tailored to each client's unique needs.</p>
+                    <div class="credentials">
+                        <h4 style="text-align: center;">Credentials & Experience</h4>
+                        <ul id="credentials-list">
+                            <li >Licensed Legal Practitioners</li>
+                            <li>Member of Bar Council</li>
+                            <li>Virtual Law Practice Pioneer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="font-size: 50px;">Our Services</h2>
+                <p style="font-size: 20px;">Click on a service to learn more</p>
+            </div>
+            <div class="services-grid" id="services-grid">
+                <!-- Services will be loaded dynamically from JSON as buttons -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Detail Modal -->
+    <div id="service-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-service-title">Service Title</h2>
+                <button class="modal-close" id="modal-close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-icon" id="modal-service-icon">
+                    <i data-feather="briefcase"></i>
+                </div>
+                <p id="modal-service-description">Service description goes here</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn--secondary" id="modal-close-btn-footer">Close</button>
+                <!-- <button class="btn btn--primary">Contact for This Service</button> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="font-size: 50px;">Contact Us</h2>
+                <p style="font-size: 15px;">Get in touch for legal consultation and services</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <br>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-feather="phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a class="contact-btn" href="tel:+91 8910502442">
+                            +91 8910502442
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-feather="mail"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a class="contact-btn" href="mailto:legaloflex@gmail.com">
+                            legaloflex@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-feather="map-pin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Address</h4>
+                            <p id="contact-address">Virtual Office - Serving Clients Nationwide</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-feather="clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Business Hours</h4>
+                            <p id="contact-hours">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p id="emergency-contact">Available 24/7 for urgent matters</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" id="firstName" name="firstName" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                        <div id="form-message" class="form-message hidden"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 id="footer-firm-name">Legal O Flex</h3>
+                    <p>Expert legal solutions for the digital age. Providing comprehensive legal services with modern technology and personalized attention.</p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/company/legal-o-flex" id="social-linkedin" target="_blank" rel="noopener noreferrer">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/legal_o_flex1607" id="social-instagram" target="_blank" rel="noopener noreferrer">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/share/19qBKNr7ve/" id="social-facebook" target="_blank" rel="noopener noreferrer">
+                            <i data-feather="facebook"></i>
+                        </a>
+                            <a href="https://wa.me/918910502442" id="social-whatsapp" target="_blank" rel="noopener noreferrer">
+                            <i data-feather="message-circle"></i> <!-- Or use a WhatsApp SVG icon -->
+                        </a>
+                </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul id="footer-services">
+                        Footer services will be loaded dynamically
+                    </ul>
+                </div> -->
+                <!-- <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li id="footer-phone">+91 8910502442</li>
+                        <li id="footer-email">contact@legaloflex.com</li>
+                    </ul>
+                </div> -->
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Legal O Flex. All rights reserved.</p>
+                <!-- <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
